@@ -1,0 +1,13 @@
+name: ta-bot
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.11
+  - pip
+  - numpy>=1.24,<2
+  - requests>=2.31,<3
+  - pip:
+      - pytest>=8.0
