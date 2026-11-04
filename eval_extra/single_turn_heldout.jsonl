@@ -1,0 +1,60 @@
+{"id": "ho-st-01", "question": "How does Meena's Sensibleness and Specificity Average metric evaluate open-domain chatbots?", "gold_paper_ids": ["L01-02"], "named": true}
+{"id": "ho-st-02", "question": "What recipes does BlenderBot use to build an engaging open-domain chatbot?", "gold_paper_ids": ["L01-04"], "named": true}
+{"id": "ho-st-03", "question": "How does the Neural Belief Tracker perform dialogue state tracking without hand-crafted lexicons?", "gold_paper_ids": ["L03-02"], "named": true}
+{"id": "ho-st-04", "question": "What is MultiWOZ and how was the data collected?", "gold_paper_ids": ["L03-03"], "named": true}
+{"id": "ho-st-05", "question": "How does TRADE generate dialogue states across domains with a copy mechanism?", "gold_paper_ids": ["L03-07"], "named": true}
+{"id": "ho-st-06", "question": "What does Sentence-BERT change about BERT to make semantic similarity search efficient?", "gold_paper_ids": ["L04-03"], "named": true}
+{"id": "ho-st-07", "question": "How does word2vec's skip-gram model use negative sampling?", "gold_paper_ids": ["L04-02"], "named": true}
+{"id": "ho-st-08", "question": "What problem does gradient clipping solve when training recurrent networks?", "gold_paper_ids": ["L05-03"], "named": true}
+{"id": "ho-st-09", "question": "How does byte pair encoding handle rare words in neural machine translation?", "gold_paper_ids": ["L08-02"], "named": true}
+{"id": "ho-st-10", "question": "How does rotary position embedding encode relative positions?", "gold_paper_ids": ["L08-04"], "named": true}
+{"id": "ho-st-11", "question": "Why is FlashAttention faster than standard attention on GPUs?", "gold_paper_ids": ["L08-05"], "named": true}
+{"id": "ho-st-12", "question": "What is nucleus sampling and why does it reduce degenerate text?", "gold_paper_ids": ["L08-06"], "named": true}
+{"id": "ho-st-13", "question": "What did the Chinchilla paper find about the optimal ratio of model size to training tokens?", "gold_paper_ids": ["L09-04"], "named": true}
+{"id": "ho-st-14", "question": "How does QLoRA fine-tune a 65B model on a single GPU?", "gold_paper_ids": ["L11-02"], "named": true}
+{"id": "ho-st-15", "question": "How does Medusa use multiple decoding heads to accelerate inference?", "gold_paper_ids": ["L11-06"], "named": true}
+{"id": "ho-st-16", "question": "What biases did the MT-Bench paper find when using GPT-4 as a judge?", "gold_paper_ids": ["L12-01"], "named": true}
+{"id": "ho-st-17", "question": "What is the lost in the middle phenomenon for long contexts?", "gold_paper_ids": ["L13-02"], "named": true}
+{"id": "ho-st-18", "question": "How does HyDE generate hypothetical documents for zero-shot dense retrieval?", "gold_paper_ids": ["L13-07"], "named": true}
+{"id": "ho-st-19", "question": "What metrics does Ragas propose for evaluating RAG pipelines without references?", "gold_paper_ids": ["L13-08"], "named": true}
+{"id": "ho-st-20", "question": "How does Self-RAG use reflection tokens?", "gold_paper_ids": ["L13-06"], "named": true}
+{"id": "ho-st-21", "question": "How do generative agents use memory streams and reflection?", "gold_paper_ids": ["L14-02"], "named": true}
+{"id": "ho-st-22", "question": "What abilities does LongMemEval test in chat assistants?", "gold_paper_ids": ["L14-03"], "named": true}
+{"id": "ho-st-23", "question": "How does Mem0 extract and update long-term memories?", "gold_paper_ids": ["L14-06"], "named": true}
+{"id": "ho-st-24", "question": "How does ROME locate and edit factual associations in GPT?", "gold_paper_ids": ["L15-02"], "named": true}
+{"id": "ho-st-25", "question": "What is TOFU and how does it benchmark unlearning?", "gold_paper_ids": ["L15-03"], "named": true}
+{"id": "ho-st-26", "question": "How does self-consistency improve chain-of-thought reasoning?", "gold_paper_ids": ["L16-02"], "named": true}
+{"id": "ho-st-27", "question": "What is Tree of Thoughts and how does it search over reasoning paths?", "gold_paper_ids": ["L16-07"], "named": true}
+{"id": "ho-st-28", "question": "How does Toolformer teach itself to call APIs?", "gold_paper_ids": ["L17-02"], "named": true}
+{"id": "ho-st-29", "question": "What is SWE-bench and how are tasks constructed?", "gold_paper_ids": ["L17-04"], "named": true}
+{"id": "ho-st-30", "question": "How does Whisper achieve robust speech recognition through weak supervision?", "gold_paper_ids": ["L19-01"], "named": true}
+{"id": "ho-st-31", "question": "Which paper shows that a small set of 1,000 carefully curated examples is enough for alignment?", "gold_paper_ids": ["L10-06"], "named": false}
+{"id": "ho-st-32", "question": "How can an LLM be trained to be harmless using a list of principles instead of human labels for harmfulness?", "gold_paper_ids": ["L10-05"], "named": false}
+{"id": "ho-st-33", "question": "Does a language model tend to tell users what they want to hear, and why does preference training cause this?", "gold_paper_ids": ["L10-07"], "named": false}
+{"id": "ho-st-34", "question": "How does process supervision compare to outcome supervision for training reward models on math?", "gold_paper_ids": ["L16-03"], "named": false}
+{"id": "ho-st-35", "question": "Can pure reinforcement learning without supervised fine-tuning produce strong reasoning abilities?", "gold_paper_ids": ["L16-05"], "named": false}
+{"id": "ho-st-36", "question": "How does budget forcing control test-time compute in a simple reasoning model?", "gold_paper_ids": ["L16-06"], "named": false}
+{"id": "ho-st-37", "question": "Do reasoning models faithfully verbalize the hints they use in their chain of thought?", "gold_paper_ids": ["L16-08"], "named": false}
+{"id": "ho-st-38", "question": "How do loss and model size relate as power laws when training language models?", "gold_paper_ids": ["L09-03"], "named": false}
+{"id": "ho-st-39", "question": "What abilities appear suddenly only at large model scale?", "gold_paper_ids": ["L09-08"], "named": false}
+{"id": "ho-st-40", "question": "How can a large model be sped up by having a small draft model propose tokens that the large model verifies?", "gold_paper_ids": ["L08-07"], "named": false}
+{"id": "ho-st-41", "question": "How can a model be made to forget knowledge of a specific book series?", "gold_paper_ids": ["L15-01"], "named": false}
+{"id": "ho-st-42", "question": "What is induction head circuitry and how does it relate to in-context learning?", "gold_paper_ids": ["L24-01"], "named": false}
+{"id": "ho-st-43", "question": "How can an instruction-following multimodal model be trained using GPT-4 generated image-text data?", "gold_paper_ids": ["L23-02"], "named": false}
+{"id": "ho-st-44", "question": "How can attackers inject instructions into data retrieved by LLM-integrated applications?", "gold_paper_ids": ["L22-03"], "named": false}
+{"id": "ho-st-45", "question": "How does a neural audio codec use residual vector quantization?", "gold_paper_ids": ["L20-01"], "named": false}
+{"id": "ho-st-46", "question": "How can self-supervised learning on raw audio with a contrastive task learn speech representations?", "gold_paper_ids": ["L18-01"], "named": false}
+{"id": "ho-st-47", "question": "Which benchmark evaluates agents on realistic websites like e-commerce and forums?", "gold_paper_ids": ["L17-03"], "named": false}
+{"id": "ho-st-48", "question": "How do agents in a dynamic environment get attacked by prompt injection through tool outputs?", "gold_paper_ids": ["L17-05"], "named": false}
+{"id": "ho-st-49", "question": "Why should agent evaluations report cost alongside accuracy?", "gold_paper_ids": ["L17-13"], "named": false}
+{"id": "ho-st-50", "question": "How can an encoder-decoder with gated units learn phrase representations for translation?", "gold_paper_ids": ["L05-01"], "named": false}
+{"id": "ho-st-51", "question": "What is the attention mechanism that lets the decoder soft-search parts of the source sentence?", "gold_paper_ids": ["L07-02"], "named": false}
+{"id": "ho-st-52", "question": "How can maximum mutual information objectives reduce generic responses like I don't know?", "gold_paper_ids": ["L07-06"], "named": false}
+{"id": "ho-st-53", "question": "How can a sequence-to-sequence model trained on movie subtitles hold a conversation?", "gold_paper_ids": ["L07-04"], "named": false}
+{"id": "ho-st-54", "question": "Do unsupervised metrics like BLEU correlate with human judgments of dialogue responses?", "gold_paper_ids": ["L12-04"], "named": false}
+{"id": "ho-st-55", "question": "How do LLM judges show position bias when comparing two responses?", "gold_paper_ids": ["L12-06"], "named": false}
+{"id": "ho-st-56", "question": "How can a summarization policy be trained from human comparisons with a reward model?", "gold_paper_ids": ["L10-03"], "named": false}
+{"id": "ho-st-57", "question": "How do you benchmark tool-using agents that interact with simulated users under domain policies?", "gold_paper_ids": ["L12-08"], "named": false}
+{"id": "ho-st-58", "question": "How does a hierarchical graph of entity communities support global sensemaking questions over a corpus?", "gold_paper_ids": ["L13-09"], "named": false}
+{"id": "ho-st-59", "question": "How can few-shot generation of rewritten queries help conversational search?", "gold_paper_ids": ["L13-12"], "named": false}
+{"id": "ho-st-60", "question": "How can recurrent neural nets with joint attention do intent detection and slot filling together?", "gold_paper_ids": ["L02-01"], "named": false}

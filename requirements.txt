@@ -8,3 +8,6 @@ numpy>=1.24,<2             # Embedding math / vector similarity
 # --- Optional but recommended ---
 # sentence-transformers    # If you embed locally instead of via vLLM
 # scikit-learn             # For cosine-similarity helpers, clustering, etc.
+
+# --- Only for eval_extra/ablation.py (plot); not needed by ta_bot.py ---
+matplotlib>=3.7
