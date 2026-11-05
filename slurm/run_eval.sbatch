@@ -36,6 +36,7 @@ export TRITON_CACHE_DIR="$HOME/scratch/.cache/triton"
 export TORCHINDUCTOR_CACHE_DIR="$HOME/scratch/.cache/torchinductor"
 export TORCH_HOME="$HOME/scratch/.cache/torch"
 export VLLM_CACHE_ROOT="$HOME/scratch/.cache/vllm"
+export FLASHINFER_WORKSPACE_DIR="$HOME/scratch/.cache/flashinfer"
 export FLASHINFER_JIT_DIR="$HOME/scratch/.cache/flashinfer"
 export TMPDIR="$HOME/scratch/.tmp"
 
@@ -51,6 +52,11 @@ MODEL="${A3_MODEL:-meta-llama/Llama-3.1-8B-Instruct}"
 PORT=$((8000 + SLURM_JOB_ID % 1000))
 EP="http://localhost:${PORT}/v1"
 mkdir -p results slurm/logs
+
+echo "Conda: $CONDA_PREFIX"
+echo "FlashInfer workspace: ${FLASHINFER_WORKSPACE_DIR:-unset}"
+echo "FlashInfer home cache: $(readlink -f "$HOME/.cache/flashinfer")"
+echo "Triton cache: $TRITON_CACHE_DIR"
 
 vllm serve "$MODEL" --port "$PORT" --max-model-len 8192 --seed 42 \
     > "slurm/logs/vllm-${SLURM_JOB_ID}.log" 2>&1 &
