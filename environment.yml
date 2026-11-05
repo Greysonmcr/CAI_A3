@@ -2,7 +2,6 @@ name: ta-bot
 
 channels:
   - conda-forge
-  - defaults
 
 dependencies:
   - python=3.11
@@ -12,3 +11,4 @@ dependencies:
   - matplotlib>=3.7
   - pip:
       - pytest>=8.0
+      - vllm
