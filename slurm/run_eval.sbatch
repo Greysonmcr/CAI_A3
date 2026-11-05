@@ -30,11 +30,13 @@ export HF_HUB_OFFLINE=1
 export TRANSFORMERS_OFFLINE=1
 
 # GPU compilation and temporary caches
+# GPU compilation and temporary caches
 export XDG_CACHE_HOME="$HOME/scratch/.cache"
 export TRITON_CACHE_DIR="$HOME/scratch/.cache/triton"
 export TORCHINDUCTOR_CACHE_DIR="$HOME/scratch/.cache/torchinductor"
 export TORCH_HOME="$HOME/scratch/.cache/torch"
 export VLLM_CACHE_ROOT="$HOME/scratch/.cache/vllm"
+export FLASHINFER_JIT_DIR="$HOME/scratch/.cache/flashinfer"
 export TMPDIR="$HOME/scratch/.tmp"
 
 mkdir -p \
@@ -42,6 +44,7 @@ mkdir -p \
     "$TORCHINDUCTOR_CACHE_DIR" \
     "$TORCH_HOME" \
     "$VLLM_CACHE_ROOT" \
+    "$FLASHINFER_JIT_DIR" \
     "$TMPDIR"
 
 MODEL="${A3_MODEL:-meta-llama/Llama-3.1-8B-Instruct}"
