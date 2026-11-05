@@ -673,7 +673,7 @@ class TABot:
 
     def _chat(self, session_id: str, user_id: str, message: str) -> dict:
         message = (message or "").strip()
-        history = self._sessions[session_id]
+        history = self._sessions[(user_id, session_id)]
         with self._lock:
             self._update_memory(user_id, message)
         facts = self.get_memory(user_id)
